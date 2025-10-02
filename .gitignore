@@ -1,0 +1,63 @@
+# Obsidian workspace and cache files
+.obsidian/cache
+.obsidian/plugins/obsidian-git/data.json
+.obsidian/plugins/obsidian-excalidraw-plugin/main.js
+.obsidian/plugins/mcp-tools
+.obsidian/copilot-index-*.json
+.obsidian/plugins/omnisearch/
+
+# Mac system files
+.DS_Store
+
+# iCloud/Google Drive temp files
+.tmp.driveupload/
+
+# Trash and temporary directories
+.trash/
+.smart-env/
+
+# Python virtual environments
+*env/
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Python files
+*.py
+*.pyc
+__pycache__/
+
+# Shell scripts
+*.sh
+
+# Config and data files
+*.traineddata
+*.log
+requirements.txt
+voice-config.json
+
+# Optional: Uncomment if you want to exclude ALL Obsidian config
+# .obsidian/
+
+# Optional: Uncomment to exclude specific heavy folders
+# .space/
+# .makemd/
+
+# Backup files
+*.bak
+*~
+*.swp
+
+# Large Stuff
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.mov
+*.zip
+
+# Environment files
+.env
+.env.*
