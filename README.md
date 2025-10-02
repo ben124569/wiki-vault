@@ -14,26 +14,32 @@ This repository contains practical knowledge files organized into focused catego
 
 ## Browse the Knowledge Base
 
-For a detailed index of all available guides and resources, see the [Knowledge Files Index](knowledge-files/README.md).
+For a detailed index of all available guides and resources, see the [Knowledge Files Index](md-vault/knowledge-files/README.md).
 
 ## Structure
 
 ```
-knowledge-files/
-├── anthropic-docs/     # Claude CLI and Anthropic documentation
-├── gemini/            # Google Gemini usage guides
-├── social-media/      # Social media marketing frameworks
-├── output-style/      # AI output formatting guides
-├── perplexity/        # Perplexity AI guides and templates
-├── pompt-writing/     # Prompt engineering best practices
-├── project-orchestrating/  # Research methodology templates
-└── question-framework/     # Question design frameworks
+md-vault/
+├── knowledge-files/           # Main knowledge collection
+│   ├── anthropic-docs/        # Claude CLI and Anthropic documentation
+│   ├── claude-code/           # Advanced Claude Code development
+│   ├── content-creation/      # Social media marketing frameworks
+│   ├── gemini/               # Google Gemini usage guides
+│   ├── Jay/                  # Ava Yuergens social media resources
+│   ├── output-style/         # AI output formatting guides
+│   ├── perplexity/           # Perplexity AI guides and templates
+│   ├── prompt-writing/       # Prompt engineering best practices
+│   ├── project-orchestrating/ # Research methodology templates
+│   └── question-framework/   # Question design frameworks
+├── custom-instructions/       # AI assistant customization
+├── prompts/                  # Research and automation prompts
+└── .obsidian/               # Obsidian vault configuration
 ```
 
 ## Getting Started
 
-1. Browse the [knowledge-files directory](knowledge-files/) for specific topics
-2. Check the [detailed index](knowledge-files/README.md) for descriptions of each guide
+1. Browse the [md-vault/knowledge-files directory](md-vault/knowledge-files/) for specific topics
+2. Check the [detailed index](md-vault/knowledge-files/README.md) for descriptions of each guide
 3. Use the search function to find specific tools or techniques
 
 ---
