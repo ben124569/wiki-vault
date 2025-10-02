@@ -1,0 +1,4 @@
+/* Hide gutters in live preview */
+.is-live-preview .cm-gutters {
+    opacity: 0;
+}

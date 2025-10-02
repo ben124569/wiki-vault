@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "bf9450665cd112fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "e607b553d993844c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db754d0a573bcc00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f732a56f2d34443f",
+    "type": "split",
+    "children": [
+      {
+        "id": "67e11f180ae5fef6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f21b4d1c0ff37f50",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "93055b7725cb8337",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f6d8dfacefe07783",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "56773f8e7da63b58",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "731b87230003c921",
+    "type": "split",
+    "children": [
+      {
+        "id": "37da2e6a45f1a62c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "816fe249ca79a6e7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "008e1eab40512672",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "2bc14149120c0cdc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "80f7dd2cb087e862",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "c34bab163260fa42",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-importer:Open Importer": false,
+      "quickadd:QuickAdd": false
+    }
+  },
+  "active": "db754d0a573bcc00",
+  "lastOpenFiles": [
+    "knowledge-files/social-media/Jay/content-writing/Content-Calendar-Framework.md",
+    "knowledge-files/social-media/Jay/content-writing/Hooks-That-Convert.md",
+    "knowledge-files/social-media/Jay/content-writing/Viral-Reel-Templates.md",
+    "knowledge-files/social-media/Jay/content-writing/Caption-Formulas.md",
+    "knowledge-files/social-media/Jay/content-writing",
+    "knowledge-files/social-media/content-writing",
+    "knowledge-files/social-media/untitled folder",
+    "knowledge-files/social-media/Jay/Comprehensive Link Database for Ava Yuergens’ Content Strategy and Teachings.md",
+    "knowledge-files/social-media/Jay/Master Reference List of Resources by Ava Yuergens.md",
+    "knowledge-files/social-media/Jay/Ava Yuergens Resource Compilation.md",
+    "knowledge-files/social-media/Jay",
+    "knowledge-files/social-media/Ava Yuergens Resource Compilation.md",
+    "knowledge-files/social-media/Comprehensive Link Database for Ava Yuergens’ Content Strategy and Teachings.md",
+    "knowledge-files/social-media/Master Reference List of Resources by Ava Yuergens.md",
+    "knowledge-files/claude-code/Comprehensive Reference - Claude Code Environment Variables.md",
+    "knowledge-files/claude-code/Comprehensive Guide to Building Custom MCP Servers for Claude Code.md",
+    "knowledge-files/claude-code/Claude Code Research Perplexity Automation Prompt.md",
+    "knowledge-files/claude-code/Advanced Context Sharing and Robustness in Claude Code Multi-Agent Systems.md",
+    "knowledge-files/claude-code/Advanced Claude Code Hooks - Schemas, Patterns, and Testing Guide.md",
+    "knowledge-files/claude-code",
+    "knowledge-files/untitled folder",
+    "knowledge-files/anthropic-docs/anthropic_docs_subagents.md",
+    "knowledge-files/README.md",
+    "README.md",
+    "untitled folder",
+    "custom-instructions/research-orchestrator-instructions.md",
+    "knowledge-files/perplexity/Perplexity Use Guide.md",
+    "knowledge-files/perplexity/Perplexity Spaces Guide.md",
+    "knowledge-files/perplexity/prompt-generation-templates.md",
+    "knowledge-files/perplexity",
+    "custom-instructions",
+    "custom-instrucctions",
+    "knowledge-files/project-orchestrating/research-methodology-guide.md",
+    "knowledge-files/project-orchestrating/research-orchestrator-instructions.md",
+    "knowledge-files/project-orchestrating/research-planning-templates.md",
+    "knowledge-files/project-orchestrating/research-project-template.md"
+  ]
+}

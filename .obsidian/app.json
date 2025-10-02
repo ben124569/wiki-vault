@@ -1,0 +1,43 @@
+{
+  "promptDelete": false,
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true,
+  "propertiesInDocument": "hidden",
+  "mobileToolbarCommands": [
+    "editor:insert-embed",
+    "editor:toggle-strikethrough",
+    "editor:toggle-highlight",
+    "editor:toggle-blockquote",
+    "editor:insert-link",
+    "editor:toggle-bullet-list",
+    "editor:toggle-numbered-list",
+    "editor:toggle-checklist-status",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:undo",
+    "editor:redo",
+    "editor:configure-toolbar",
+    "editor:fold-all",
+    "editor:unfold-all"
+  ],
+  "userIgnoreFilters": [
+    "10 - Archive/",
+    "4 - Docs/Templates/Templater/"
+  ],
+  "defaultViewMode": "source",
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "showInlineTitle": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "vimMode": true,
+  "trashOption": "local",
+  "livePreview": true,
+  "focusNewTab": false,
+  "tabSize": 4
+}

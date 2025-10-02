@@ -9,6 +9,10 @@
 # Mac system files
 .DS_Store
 
+
+# Claude stuff
+.claude/
+
 # iCloud/Google Drive temp files
 .tmp.driveupload/
 

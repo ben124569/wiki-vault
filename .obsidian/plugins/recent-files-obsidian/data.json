@@ -1,0 +1,208 @@
+{
+  "recentFiles": [
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "anthropic_docs_subagents",
+      "path": "knowledge-files/anthropic-docs/anthropic_docs_subagents.md"
+    },
+    {
+      "basename": "research-orchestrator-instructions",
+      "path": "custom-instructions/research-orchestrator-instructions.md"
+    },
+    {
+      "basename": "Claude Prompt Writing Guide",
+      "path": "0 - Inbox/Research Project/Claude Prompt Writing Guide.md"
+    },
+    {
+      "basename": "Perplexity Use Guide",
+      "path": "6 - Research/Perplexity/Perplexity Use Guide.md"
+    },
+    {
+      "basename": "Comprehensive Guide to Addressing Customer Objecti",
+      "path": "Comprehensive Guide to Addressing Customer Objecti.md"
+    },
+    {
+      "basename": "Comprehensive Framework for Deep Audience Understa",
+      "path": "marcus/Comprehensive Framework for Deep Audience Understa.md"
+    },
+    {
+      "basename": "Practical Guide to Measuring and Analyzing Social",
+      "path": "marcus/Practical Guide to Measuring and Analyzing Social.md"
+    },
+    {
+      "basename": "Comprehensive Guide to Proven Social Media Post Fo",
+      "path": "marcus/Comprehensive Guide to Proven Social Media Post Fo.md"
+    },
+    {
+      "basename": "Comprehensive Guide to Addressing Customer Objecti",
+      "path": "marcus/Comprehensive Guide to Addressing Customer Objecti.md"
+    },
+    {
+      "basename": "2025-10-02",
+      "path": "8 - Periodic/1 - Days/2025-10-02.md"
+    },
+    {
+      "basename": "2025-10-02 Addy website",
+      "path": "2025-10-02 Addy website.md"
+    },
+    {
+      "basename": "Comprehensive Organic Content Strategy for Faceboo",
+      "path": "marcus/Comprehensive Organic Content Strategy for Faceboo.md"
+    },
+    {
+      "basename": "Writing Professional, Persuasive Social Media Cont",
+      "path": "marcus/Writing Professional, Persuasive Social Media Cont.md"
+    },
+    {
+      "basename": "Comprehensive Guide to Social Media Calls-to-Actio",
+      "path": "Comprehensive Guide to Social Media Calls-to-Actio.md"
+    },
+    {
+      "basename": "Show-go-web-questions",
+      "path": "Show-go-web-questions.md"
+    },
+    {
+      "basename": "instructions",
+      "path": "instructions.md"
+    },
+    {
+      "basename": "Perplexity Spaces Guide",
+      "path": "6 - Research/Perplexity/Perplexity Spaces Guide.md"
+    },
+    {
+      "basename": "Optimizing Obsidian Vault Organization for AI Accessibility",
+      "path": "6 - Research/Perplexity/Optimizing Obsidian Vault Organization for AI Accessibility.md"
+    },
+    {
+      "basename": "calender-creator-ai",
+      "path": "4 - Docs/calender-creator-ai.md"
+    },
+    {
+      "basename": "MCP",
+      "path": "To Sort/5 - Area/Tags/MCP.md"
+    },
+    {
+      "basename": "Team Show and Go Australia_ Comprehensive Company",
+      "path": "Team Show and Go Australia_ Comprehensive Company.md"
+    },
+    {
+      "basename": "Source Note Writing Guide",
+      "path": "4 - Docs/Systems/Obsidian/Source Note Writing Guide.md"
+    },
+    {
+      "basename": "source-note-master-reference",
+      "path": "4 - Docs/Systems/Obsidian/source-note-master-reference.md"
+    },
+    {
+      "basename": "2025-09-27 Claude code claude project",
+      "path": "8 - Periodic/8 - Thinking/2025-09-27 Claude code claude project.md"
+    },
+    {
+      "basename": "Thinking Notes Index",
+      "path": "8 - Periodic/Thinking Notes Index.md"
+    },
+    {
+      "basename": "Progress Notes Index",
+      "path": "8 - Periodic/Progress Notes Index.md"
+    },
+    {
+      "basename": "2025-09-14 Clearing Out Stuff",
+      "path": "8 - Periodic/7 - Progress/2025-09-14 Clearing Out Stuff.md"
+    },
+    {
+      "basename": "2025-08-21 Putting Claude On A Diet",
+      "path": "8 - Periodic/7 - Progress/2025-08-21 Putting Claude On A Diet.md"
+    },
+    {
+      "basename": "CLAUDE.sessions",
+      "path": "CLAUDE.sessions.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.canvas"
+    },
+    {
+      "basename": "2025-09-22",
+      "path": "8 - Periodic/1 - Days/2025-09-22.md"
+    },
+    {
+      "basename": "2025-09-13",
+      "path": "8 - Periodic/1 - Days/2025-09-13.md"
+    },
+    {
+      "basename": "2025-09-12",
+      "path": "8 - Periodic/1 - Days/2025-09-12.md"
+    },
+    {
+      "basename": "2025-09-23",
+      "path": "8 - Periodic/1 - Days/2025-09-23.md"
+    },
+    {
+      "basename": "2025-09-24",
+      "path": "8 - Periodic/1 - Days/2025-09-24.md"
+    },
+    {
+      "basename": "2025-09-25",
+      "path": "8 - Periodic/1 - Days/2025-09-25.md"
+    },
+    {
+      "basename": "2025-09-26",
+      "path": "8 - Periodic/1 - Days/2025-09-26.md"
+    },
+    {
+      "basename": "2025-09-27",
+      "path": "8 - Periodic/1 - Days/2025-09-27.md"
+    },
+    {
+      "basename": "2025-09-29",
+      "path": "8 - Periodic/1 - Days/2025-09-29.md"
+    },
+    {
+      "basename": "2025-09-30",
+      "path": "8 - Periodic/1 - Days/2025-09-30.md"
+    },
+    {
+      "basename": "Using reviewing knowledge files in agentic workflows",
+      "path": "2 - Atomic/Using reviewing knowledge files in agentic workflows.md"
+    },
+    {
+      "basename": "Shared Moving Notion",
+      "path": "Shared Moving Notion.md"
+    },
+    {
+      "basename": "Using Gemini CLI for Large Codebase Analysis",
+      "path": "4 - Docs/Prompts/Using Gemini CLI for Large Codebase Analysis.md"
+    },
+    {
+      "basename": "PMM 2.2 - The honest Audit",
+      "path": "PMM 2.2 - The honest Audit.md"
+    },
+    {
+      "basename": "90-Day Sprint - Performance Mindset",
+      "path": "0 - Inbox/Notion/90-Day Sprint - Performance Mindset/90-Day Sprint - Performance Mindset.md"
+    },
+    {
+      "basename": "2025-40",
+      "path": "8 - Periodic/2 - Weeks/2025-40.md"
+    },
+    {
+      "basename": "2025-39",
+      "path": "8 - Periodic/2 - Weeks/2025-39.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

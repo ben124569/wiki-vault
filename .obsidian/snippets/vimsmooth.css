@@ -1,0 +1,9 @@
+/* Optimize for high-frequency key repeats in Vim mode */
+.mod-vim .cm-cursor {
+    transition: none !important;
+  }
+  
+  .mod-vim .cm-cursorLayer {
+    animation: step-end !important;
+  }
+  

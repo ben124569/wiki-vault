@@ -1,0 +1,29 @@
+{
+  "translucency": false,
+  "cssTheme": "Tokyo Night",
+  "accentColor": "",
+  "baseFontSize": 23,
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "MCL Gallery Cards",
+    "wide-cssclass-width",
+    "MCL Wide Views",
+    "MCL Multi Column",
+    "00 - Smooth Cursor Good",
+    "strikethrough",
+    "ninja-smooth",
+    "Callouts",
+    "03-text-formatting",
+    "06-onedark-code-blocks",
+    "specific-folder-hide",
+    "blue-topaz-left-borders-only",
+    "transparent-obsidian",
+    "vimsmooth",
+    "01-color-palette",
+    "line numbers"
+  ],
+  "theme": "system",
+  "nativeMenus": true,
+  "showViewHeader": true,
+  "showRibbon": false
+}

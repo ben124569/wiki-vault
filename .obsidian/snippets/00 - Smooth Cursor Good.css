@@ -1,0 +1,124 @@
+/* ====================================
+   07 - CURSOR ANIMATION
+   Smooth cursor/caret animations for better writing experience
+   ==================================== */
+
+/* ====================================
+   Cursor Animation Variables
+   ==================================== */
+:root {
+  /* Cursor animation timing */
+  --cursor-transition-duration: 90ms;
+  --cursor-transition-function: ease;
+  
+  /* Selection animation timing */
+  --selection-transition-duration: 135ms;
+  --selection-transition-function: ease;
+}
+
+/* ====================================
+   Text Editor Cursor Animation
+   ==================================== */
+
+/* Main text cursor in CM6 editor */
+.cm-editor .cm-cursor,
+.cm-editor .cm-cursor-primary {
+  transition: all var(--cursor-transition-duration) var(--cursor-transition-function);
+}
+
+/* Text selection animations */
+.cm-editor .cm-selectionBackground,
+.cm-editor .cm-focused .cm-selectionBackground {
+  transition: all var(--selection-transition-duration) var(--selection-transition-function);
+}
+
+/* Line highlighting */
+.cm-editor .cm-activeLine {
+  transition: background-color var(--cursor-transition-duration) var(--cursor-transition-function);
+}
+
+/* ====================================
+   Input Field Cursors
+   ==================================== */
+
+/* Input and textarea cursor animations */
+input[type="text"],
+input[type="search"],
+textarea,
+.markdown-source-view.mod-cm6 .cm-editor .cm-content,
+.markdown-source-view.mod-cm6 .cm-editor .cm-scroller {
+  caret-color: var(--text-accent);
+  transition: caret-color var(--cursor-transition-duration) var(--cursor-transition-function);
+}
+
+/* ====================================
+   Search and Command Palette
+   ==================================== */
+
+/* Search input cursor */
+.prompt-input input {
+  transition: all var(--cursor-transition-duration) var(--cursor-transition-function);
+}
+
+/* Command palette cursor */
+.suggestion-item.is-selected {
+  transition: all var(--cursor-transition-duration) var(--cursor-transition-function);
+}
+
+/* ====================================
+   Alternative Universal Approach
+   (Uncomment if you prefer the simpler forum solution)
+   ==================================== */
+
+/*
+
+{
+  transition: all 80ms;
+}
+  
+*/
+
+/* ====================================
+   Performance Optimization
+   ==================================== */
+
+/* Disable animations for elements that don't need them */
+.nav-files-container,
+.tree-item,
+.nav-folder,
+.nav-file {
+  transition: none !important;
+}
+
+/* The active line background-color tween can cause jank inside callouts */
+.cm-editor .cm-activeLine {
+  transition: none !important;
+}
+
+/* Re-enable for hover states where needed */
+.nav-files-container .nav-file-title:hover,
+.nav-files-container .nav-folder-title:hover {
+  transition: color var(--cursor-transition-duration) var(--cursor-transition-function);
+}
+
+/* ====================================
+   Accessibility
+   ==================================== */
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .cm-editor .cm-cursor,
+  .cm-editor .cm-cursor-primary,
+  .cm-editor .cm-selectionBackground,
+  .cm-editor .cm-focused .cm-selectionBackground,
+  .cm-editor .cm-activeLine,
+  input[type="text"],
+  input[type="search"],
+  textarea,
+  .markdown-source-view.mod-cm6 .cm-editor .cm-content,
+  .markdown-source-view.mod-cm6 .cm-editor .cm-scroller,
+  .prompt-input input,
+  .suggestion-item.is-selected {
+    transition: none !important;
+  }
+}
