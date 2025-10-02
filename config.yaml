@@ -1,0 +1,110 @@
+# Knowledge Base Configuration
+# Customize this file for your specific content creator and topic
+
+knowledge_base:
+  name: "General Wiki Knowledge Base"
+  creator: "Me"
+  topic: "All sorts of stuff"
+  description: "Knowledge wiki"
+
+  # Response style - how the expert should respond
+  personality: "technical but approachable"
+  example_phrases:
+    - "Based on the knowledge about content writing..."
+    - "Coming fom the prompt Writing Docs...."
+
+data_sources:
+  # Enable/disable different content types
+  use_source_notes: true # Structured notes with concepts, quotes, etc.
+  use_transcripts: false # Raw video transcripts (disabled for now)
+  prefer_transcripts: false # If true, prioritizes exact quotes over summaries
+
+  # Paths (relative to project root)
+  source_notes_dir: "md-vault"
+
+  # Format flexibility
+  require_sections: false # If false, works with any markdown structure
+  flexible_metadata: true # Accept any YAML frontmatter fields
+  transcript_format: "auto" # "single_line", "timestamped", or "auto" (detects automatically)
+
+embeddings:
+  # Primary settings (OpenAI - best quality)
+  provider: "openai"
+  model: "text-embedding-3-large" # Best OpenAI model
+  dimensions: 3072 # Maximum quality
+
+  # Fallback if no API key
+  fallback_provider: "local"
+  fallback_model: "all-MiniLM-L6-v2"
+
+  # Processing
+  batch_size: 100
+  show_progress: true
+
+chunking:
+  # For source notes
+  notes_chunk_size: 1000 # tokens
+  notes_chunk_overlap: 200 # tokens
+
+  # For transcripts
+  transcript_chunk_minutes: 3 # chunk every N minutes
+  transcript_overlap_seconds: 30
+
+  # Smart chunking
+  preserve_sections: true # Keep sections intact
+  min_chunk_size: 100 # tokens
+  max_chunk_size: 2000 # tokens
+
+search:
+  # Retrieval settings
+  top_k_initial: 20 # Initial retrieval
+  top_k_final: 10 # After reranking
+  min_relevance_score: 0.6 # Filter low relevance
+
+  # Search modes
+  enable_hybrid: true # Combine semantic + keyword
+  enable_mmr: true # Maximal Marginal Relevance for diversity
+
+  # Reranking
+  use_reranking: true
+  rerank_model: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+
+generation:
+  # If using OpenAI for answers (optional)
+  provider: "openai"
+  model: "gpt-4o-mini"
+  temperature: 0.3
+  max_tokens: 2000
+
+  # System prompt template
+  system_prompt: |
+    You are an AI assistant with access to general knowledge Library, Please
+    Provide helpful, accurate answers based on the content in the knowledge base.
+    Always cite specific videos when possible.
+    Maintain a {personality} tone.
+
+chroma:
+  persist_directory: "chroma_db"
+  collection_prefix: "kb" # Collections will be: kb_content, kb_concepts, kb_metadata
+
+  collections:
+    content: "content" # Main content chunks
+    concepts: "concepts" # Key concepts/frameworks
+    metadata: "metadata" # Video information
+    quotes: "quotes" # Notable quotes (if applicable)
+
+mcp:
+  # Model Context Protocol settings for Claude Desktop
+  enabled: true
+  server_name: "knowledge_base"
+  auto_start: false
+
+logging:
+  level: "INFO" # DEBUG, INFO, WARNING, ERROR
+  file: "knowledge_base.log"
+
+analytics:
+  track_queries: true
+  track_performance: true
+  export_metrics: false
+

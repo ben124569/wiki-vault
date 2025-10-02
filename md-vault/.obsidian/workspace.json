@@ -11,14 +11,10 @@
             "id": "db754d0a573bcc00",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "New tab"
             }
           }
         ]
@@ -80,8 +76,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           }
         ]
@@ -196,41 +192,41 @@
   },
   "active": "db754d0a573bcc00",
   "lastOpenFiles": [
-    "knowledge-files/social-media/Jay/content-writing/Content-Calendar-Framework.md",
-    "knowledge-files/social-media/Jay/content-writing/Hooks-That-Convert.md",
-    "knowledge-files/social-media/Jay/content-writing/Viral-Reel-Templates.md",
-    "knowledge-files/social-media/Jay/content-writing/Caption-Formulas.md",
-    "knowledge-files/social-media/Jay/content-writing",
-    "knowledge-files/social-media/content-writing",
-    "knowledge-files/social-media/untitled folder",
-    "knowledge-files/social-media/Jay/Comprehensive Link Database for Ava Yuergens’ Content Strategy and Teachings.md",
-    "knowledge-files/social-media/Jay/Master Reference List of Resources by Ava Yuergens.md",
-    "knowledge-files/social-media/Jay/Ava Yuergens Resource Compilation.md",
-    "knowledge-files/social-media/Jay",
-    "knowledge-files/social-media/Ava Yuergens Resource Compilation.md",
-    "knowledge-files/social-media/Comprehensive Link Database for Ava Yuergens’ Content Strategy and Teachings.md",
-    "knowledge-files/social-media/Master Reference List of Resources by Ava Yuergens.md",
-    "knowledge-files/claude-code/Comprehensive Reference - Claude Code Environment Variables.md",
-    "knowledge-files/claude-code/Comprehensive Guide to Building Custom MCP Servers for Claude Code.md",
-    "knowledge-files/claude-code/Claude Code Research Perplexity Automation Prompt.md",
-    "knowledge-files/claude-code/Advanced Context Sharing and Robustness in Claude Code Multi-Agent Systems.md",
-    "knowledge-files/claude-code/Advanced Claude Code Hooks - Schemas, Patterns, and Testing Guide.md",
-    "knowledge-files/claude-code",
-    "knowledge-files/untitled folder",
-    "knowledge-files/anthropic-docs/anthropic_docs_subagents.md",
-    "knowledge-files/README.md",
-    "README.md",
+    "knowledge-files/content-creation/What Drives Exceptional Social Media Performance f.md",
+    "knowledge-files/content-creation/Research on Psychology and Neuroscience of Content.md",
+    "knowledge-files/content-creation/Proven Methods for Analyzing Competitor Social Med.md",
+    "knowledge-files/content-creation/Proven Content Repurposing Strategies and Systems.md",
+    "knowledge-files/content-creation/Proven Content Creation Frameworks from Leading Ma.md",
+    "knowledge-files/content-creation/Mastering Copywriting for Social Media - Timeless Techniques.md",
+    "knowledge-files/content-creation/Leveraging Trends, Seasonality, and Current Events.md",
+    "knowledge-files/content-creation/How Social Media Algorithms Work and What Content.md",
+    "knowledge-files/content-creation/Case Studies of Small Businesses with Exceptional.md",
+    "knowledge-files/content-creation/Best Practices for Writing Social Media Content.md",
+    "knowledge-files/content-creation/Social Media Hook Patterns Library.md",
+    "knowledge-files/content-creation/shorter-content-perplexity-research-prompts.md",
+    "knowledge-files/content-creation/Proven Social Media Copywriting Formulas and Struc.md",
+    "knowledge-files/content-creation/Comprehensive Copy Frameworks for Handling Custome.md",
+    "knowledge-files/content-creation/Writing Professional, Persuasive Social Media Cont.md",
+    "knowledge-files/content-creation/Practical Guide to Measuring and Analyzing Social.md",
+    "knowledge-files/content-creation/Comprehensive Organic Content Strategy for Faceboo.md",
+    "knowledge-files/content-creation/Comprehensive Guide to Social Media Calls-to-Actio.md",
+    "knowledge-files/content-creation/Comprehensive Guide to Seasonal and Event-Based Co.md",
+    "knowledge-files/content-creation/Comprehensive Guide to Proven Social Media Post Fo.md",
+    "knowledge-files/content-creation/Comprehensive Guide to Addressing Customer Objecti.md",
+    "knowledge-files/content-creation/Comprehensive Framework for Identifying Core Custo.md",
+    "knowledge-files/content-creation/Comprehensive Framework for Deep Audience Understa.md",
+    "knowledge-files/Jay/content-writing/Hooks-That-Convert.md",
+    "knowledge-files/Jay/content-writing/Viral-Reel-Templates.md",
+    "knowledge-files/Jay/content-writing/Content-Calendar-Framework.md",
+    "knowledge-files/Jay/content-writing",
+    "knowledge-files/Jay",
+    "knowledge-files/content-creation/social-media",
+    "knowledge-files/content-creation/Jay/content-writing",
+    "knowledge-files/content-creation/Jay",
+    "knowledge-files/content-creation",
+    "content-creation",
     "untitled folder",
-    "custom-instructions/research-orchestrator-instructions.md",
-    "knowledge-files/perplexity/Perplexity Use Guide.md",
-    "knowledge-files/perplexity/Perplexity Spaces Guide.md",
-    "knowledge-files/perplexity/prompt-generation-templates.md",
-    "knowledge-files/perplexity",
-    "custom-instructions",
-    "custom-instrucctions",
-    "knowledge-files/project-orchestrating/research-methodology-guide.md",
-    "knowledge-files/project-orchestrating/research-orchestrator-instructions.md",
-    "knowledge-files/project-orchestrating/research-planning-templates.md",
-    "knowledge-files/project-orchestrating/research-project-template.md"
+    "knowledge-files/prompt-writing",
+    "prompts/research-perplexity"
   ]
 }
