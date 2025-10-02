@@ -65,3 +65,7 @@ voice-config.json
 # Environment files
 .env
 .env.*
+
+
+# Chroma
+chroma_db/
