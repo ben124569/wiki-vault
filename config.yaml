@@ -81,9 +81,9 @@ chroma:
   collection_prefix: "wiki"    # Collections: wiki_content, wiki_concepts, wiki_metadata
   
   collections:
-    content: "wiki_content"    # Main document chunks
-    concepts: "wiki_concepts"  # Key concepts and terms
-    metadata: "wiki_metadata"  # Document metadata
+    content: "content"    # Main document chunks (will be wiki_content)
+    concepts: "concepts"  # Key concepts and terms (will be wiki_concepts)
+    metadata: "metadata"  # Document metadata (will be wiki_metadata)
 
 logging:
   level: "INFO"
