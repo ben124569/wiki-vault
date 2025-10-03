@@ -1,0 +1,70 @@
+# Hormozi Vault – Raw MD Transcripts Profile
+
+knowledge_base:
+  name: "Hormozi Transcripts KB"
+  creator: "Benjamin Merritt"
+  topic: "Hormozi content transcripts"
+  description: "Searchable RAG over raw Markdown transcripts"
+  personality: "technical, precise, and helpful"
+
+data_sources:
+  use_source_notes: false
+  use_transcripts: true
+  prefer_transcripts: true
+  transcripts_dir: "/Users/benjaminmerritt/hormozi-vault/00-raw-transcripts"
+  # source_notes_dir is ignored when use_source_notes is false
+  source_notes_dir: "md-vault"
+
+embeddings:
+  provider: "local"
+  fallback_model: "all-MiniLM-L6-v2"
+  batch_size: 256
+  show_progress: true
+
+chunking:
+  notes_chunk_size: 1800
+  notes_chunk_overlap: 200
+  preserve_sections: true
+  min_chunk_size: 200
+  max_chunk_size: 3000
+  # Transcript-specific chunking
+  transcript_chunk_minutes: 3
+  transcript_overlap_seconds: 30
+
+search:
+  top_k_initial: 30
+  top_k_final: 12
+  min_relevance_score: 0.5
+  enable_hybrid: true
+  enable_mmr: true
+
+generation:
+  provider: "openai"
+  model: "gpt-4o-mini"
+  temperature: 0.2
+  max_tokens: 2500
+  system_prompt: |
+    You are an AI assistant with access to a transcripts knowledge base.
+    Provide accurate answers grounded in provided context.
+    Cite sources inline when useful and include a final Sources section.
+
+chroma:
+  persist_directory: "/Users/benjaminmerritt/hormozi-vault/chroma_db"
+  collection_prefix: "hormozi"
+  collections:
+    content: "content"
+    concepts: "concepts"
+    metadata: "metadata"
+
+logging:
+  level: "INFO"
+  file: "wiki_rag.log"
+
+mcp:
+  enabled: false
+
+analytics:
+  track_queries: true
+  track_performance: true
+  export_metrics: false
+
