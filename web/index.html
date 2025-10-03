@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ask Jay</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:900px;margin:2rem auto;padding:0 1rem;color:#111}
+    h1{font-size:1.6rem;margin-bottom:.5rem}
+    .row{display:flex;gap:.5rem;align-items:center}
+    textarea{width:100%;min-height:120px}
+    select,input,button{padding:.5rem}
+    pre{white-space:pre-wrap;background:#fafafa;border:1px solid #eee;padding:1rem;border-radius:8px}
+    .sources li{margin:.25rem 0}
+    .meta{color:#666;font-size:.9rem}
+  </style>
+  <script>
+    async function askJay(){
+      const q = document.getElementById('q').value.trim();
+      const style = document.getElementById('style').value;
+      const k = parseInt(document.getElementById('k').value||'18',10);
+      const key = document.getElementById('key').value.trim();
+      const ctx = document.getElementById('ctx').value.trim();
+      if(!q){ alert('Enter a question'); return; }
+      const btn = document.getElementById('btn');
+      btn.disabled = true; btn.innerText = 'Asking…';
+      try{
+        const res = await fetch('/ask-jay', {
+          method:'POST', headers:{'Content-Type':'application/json','X-API-Key': key},
+          body: JSON.stringify({question:q, response_style:style, top_k:k, user_context: ctx})
+        });
+        const data = await res.json();
+        if(!res.ok){ throw new Error(data.detail||('HTTP '+res.status)); }
+        document.getElementById('answer').textContent = data.answer||'';
+        const ul = document.getElementById('sources'); ul.innerHTML='';
+        (data.sources||[]).forEach(s=>{
+          const li = document.createElement('li');
+          if(s.url){ li.innerHTML = `<a href="${s.url}" target="_blank">${s.title}</a>`; }
+          else if(s.file_path){ li.textContent = `${s.title} (${s.file_path})`; }
+          else { li.textContent = s.title||'Untitled'; }
+          ul.appendChild(li);
+        });
+        document.getElementById('meta').textContent = data.confidence?(`Confidence: ${Math.round(data.confidence*100)}%`):'';
+      }catch(e){
+        document.getElementById('answer').textContent = 'Error: '+e.message;
+        document.getElementById('sources').innerHTML = '';
+        document.getElementById('meta').textContent = '';
+      }finally{
+        btn.disabled = false; btn.innerText = 'Ask';
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1>Ask Jay</h1>
+  <div class="row">
+    <label>API Key (if set)</label>
+    <input id="key" placeholder="X-API-Key" style="flex:1">
+  </div>
+  <div class="row">
+    <label>Style</label>
+    <select id="style">
+      <option value="concise">Concise</option>
+      <option value="detailed" selected>Detailed</option>
+      <option value="comprehensive">Comprehensive</option>
+    </select>
+    <label>Depth</label>
+    <input id="k" type="number" min="5" max="40" value="18" style="width:6rem">
+  </div>
+  <div class="row">
+    <label>Context</label>
+    <input id="ctx" placeholder="e.g., video services in Adelaide; async; ADHD; …" style="flex:1">
+  </div>
+  <p>Question</p>
+  <textarea id="q" placeholder="What does Jay say about morning routines?"></textarea>
+  <p><button id="btn" onclick="askJay()">Ask</button></p>
+
+  <h2>Answer</h2>
+  <pre id="answer"></pre>
+  <div class="meta" id="meta"></div>
+  <h3>Sources</h3>
+  <ul id="sources" class="sources"></ul>
+</body>
+</html>
+
